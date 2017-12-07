@@ -221,7 +221,11 @@ body {
 }
 
 .s2 div span{
-    background-color: #00e8f2;
+    /*渐变色*/
+    background:-moz-linear-gradient(left,#00ecfc,#00fd9d);/*Mozilla*/
+    background:-webkit-gradient(linear,0 50%,100% 50%,from(#00ecfc),to(#00fd9d));/*Old gradient for webkit*/
+    background:-webkit-linear-gradient(left,#00ecfc,#00fd9d);/*new gradient for Webkit*/
+    background:-o-linear-gradient(left,#00ecfc,#00fd9d); /*Opera11*/
     width: 120px;
     height: 25px;
     border-radius: 10px;
