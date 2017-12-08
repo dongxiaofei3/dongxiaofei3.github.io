@@ -64,24 +64,28 @@ body {
     width: 30px;
     top: 120px;
     left: 50px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(2) {
     width: 60px;
     right: 40px;
     top: 90px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(3) {
     width: 50px;
     left: 30px;
     bottom: 180px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(4) {
     width: 50px;
     right: 50px;
     bottom: 200px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(5) {
@@ -89,6 +93,7 @@ body {
     left: 50%;
     top: 25%;
     margin-left: -35%;
+    animation: pulse infinite;
 }
 
 /*第一屏的文字部分*/
