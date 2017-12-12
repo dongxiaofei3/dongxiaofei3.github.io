@@ -42,6 +42,21 @@ body {
     bottom: 3%;
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
+    width: 17px;
+    height: 35px;
+    background-size: contain;
+    animation: buttonnext 1s infinite;
+}
+
+@keyframes buttonnext {
+    0%{
+        bottom: 3%;
+        opacity:1;
+    }
+    100%{
+        bottom: 6%;
+        opacity:0;
+    }
 }
 
 /*音乐按钮的样式*/
@@ -126,6 +141,10 @@ body {
     animation: swing infinite;
 }
 
+.swing {
+    transform-origin: center;
+}
+
 .s1 .header img:nth-of-type(5) {
     width: 70%;
     left: 50%;
@@ -188,10 +207,30 @@ body {
 
 .s1 .footer img:nth-of-type(1) {
     left: 0;
+    animation: footerimg1 2s infinite alternate;
+}
+
+@keyframes footerimg1 {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 20px;
+    }
+
 }
 
 .s1 .footer img:nth-of-type(2) {
     left: -95px;
+    animation: footerimg2 2s infinite alternate;
+}
+@keyframes footerimg2 {
+    0%{
+        left: -95px;
+    }
+    100%{
+        left: -75px;
+    }
 }
 
 
