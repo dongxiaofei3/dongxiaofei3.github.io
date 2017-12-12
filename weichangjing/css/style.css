@@ -41,7 +41,7 @@ body {
     top: auto;
     bottom: 5%;
     margin-left: -13.5px;
-    transform: rotateZ(90deg);
+    transform: rotateZ(-90deg);
 }
 
 /*音乐按钮的样式*/
@@ -86,7 +86,7 @@ body {
  * .s1 第一屏样式 - 开始
  */
 
-.s1, .s2 {
+.s1, .s2,.s3 {
     background: url(../img/bj.png);
     height: 100%;
     /*设置当前的元素为相对定位*/
