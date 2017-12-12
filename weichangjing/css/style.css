@@ -39,7 +39,7 @@ body {
     left: 50%;
     right: auto;
     top: auto;
-    bottom: 5%;
+    bottom: 3%;
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
 }
@@ -64,9 +64,9 @@ body {
     /*一直执行*/
     animation-iteration-count: infinite;
     /*匀速执行*/
-    animation-timing-function:linear;
+    animation-timing-function: linear;
     /*默认运行动画*/
-    animation-play-state:running;
+    animation-play-state: running;
 }
 
 @keyframes mp3key {
@@ -86,7 +86,7 @@ body {
  * .s1 第一屏样式 - 开始
  */
 
-.s1, .s2,.s3 {
+.s1, .s2, .s3 {
     background: url(../img/bj.png);
     height: 100%;
     /*设置当前的元素为相对定位*/
@@ -193,6 +193,7 @@ body {
 .s1 .footer img:nth-of-type(2) {
     left: -95px;
 }
+
 
 /*第二屏的样式*/
 .s2 {
